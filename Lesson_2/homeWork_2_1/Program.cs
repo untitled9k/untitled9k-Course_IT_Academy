@@ -21,7 +21,7 @@
             while (true)
             {
                 Console.WriteLine("Write your height:");
-                if (double.TryParse(Console.ReadLine(), out height))
+                if (double.TryParse(Console.ReadLine(), out height) && height >=0)
                     break;
                 Console.WriteLine("Height isn't correct.");
             }
