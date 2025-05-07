@@ -11,7 +11,7 @@
                 Console.WriteLine("Invalid input!");
                 input1 = Console.ReadLine().ToLower();
             }
-            var firstValue= input1 == "true";
+            bool firstValue= input1 == "true";
 
 
             Console.WriteLine("Enter second boolean value (true/false)");
@@ -21,7 +21,7 @@
                 Console.WriteLine("Invalid input!");
                 input2 = Console.ReadLine().ToLower();
             }
-            var secondValue = input2 == "true";
+            bool secondValue = input2 == "true";
 
             Console.WriteLine("______________________________________________");
             Console.WriteLine("p\tq\tp&q\tp|q\tp^q\t!p\t");
