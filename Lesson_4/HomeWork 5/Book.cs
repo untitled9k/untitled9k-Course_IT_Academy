@@ -1,5 +1,5 @@
-﻿namespace HomeWork_5
-{
+﻿namespace HomeWork_5;
+
     class Book
     {
         private string _title;
@@ -42,4 +42,3 @@
             return $"Name: {Title}, Author: {Author}, Pages: {Pages}";
         }
     }
-}
