@@ -1,6 +1,7 @@
 ﻿using System.Text;
 
 namespace HomeWork_8_3;
+
 class Program
 {
     static void Main(string[] args)
